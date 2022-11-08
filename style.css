@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    background-color: #d200fc;
+}
+
+.global-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: tomato;
+}
+
+.login-card{
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0, 0.16);
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: flex;
+    background: #eeeeee;
+    border: 2px solid tomato;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.btn{
+    background: #eeeeee;
+    color: tomato;
+    transform: translateY(10px);
+    font-size: 14px;
+    border: 2px solid tomato;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
